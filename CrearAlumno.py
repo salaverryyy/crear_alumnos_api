@@ -1,7 +1,7 @@
 import json
 import boto3
 def lambda_handler(event, context):
-
+… 
 # Publicar en SNS
 sns_client = boto3.client('sns')
 response_sns = sns_client.publish(
